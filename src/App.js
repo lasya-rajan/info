@@ -28,11 +28,15 @@ class App extends React.Component {
             <div className="inner">
               <h1 className = "text1">Hi! I'm Lasya. </h1>
               <ul className = "text2"> 
-              <li className = "text3"> I'm a technologist and designer from the NYC metro area. </li>
-              <li>I'm currently studying Computer Science at Georgetown University. </li>
-              <li> I'm passionate about empathetic design and the intersection of art and technology. </li>
-              Click around to learn more about me!
-              <img src = {Picture1} className = "photo" alt = "A photo of me hiking in Cherry Springs Dark Sky Park, PA." /></ul>
+              <li className = "text3"> I'm a technologist, designer, and digital creative from the NYC metro area. </li>
+              <p></p>
+              <li className = "text4">I'm currently studying Computer Science and Arabic at Georgetown University. </li>
+              <p></p>
+              <li className = "text5"> I'm passionate about empathetic design and the intersection of art and technology. </li>
+              <p></p>
+              </ul>
+              <div className = "text6"> Learn more about me and see what I'm up to! </div>
+              <img src = {Picture1} className = "photo" alt = "A photo of me hiking in Cherry Springs Dark Sky Park, PA." />
               <ul className="actions">
               
              

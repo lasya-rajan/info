@@ -3930,13 +3930,35 @@ input, select, textarea {
 .text2{
 	text-align: left;
 	float:right;
-	width: 300px;
+	width: 480px;
 	position: fixed;
-	right: 270px;
+	right: 80px;
 	top: -140px;
 }
 
 .text3{
 	white-space: pre-line;
+	font-size: 20px;
+	line-height:2;
 	list-style-type: "\1F4BB";
+}
+
+.text4{
+	white-space: pre-line;
+	font-size: 20px;
+	line-height:2;
+	list-style-type: "\1F4DA";
+}
+
+.text5{
+	white-space: pre-line;
+	font-size: 20px;
+	line-height:2;
+	list-style-type: "\1F3A8";
+
+}
+
+.text6{
+	white-space: pre-line;
+	font-size: 25px;
 }
