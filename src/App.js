@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Picture1 from '/Users/lasyarajan/info/src/lasya.jpg'; 
+import pdf from '/Users/lasyarajan/info/src/lasyarajanresume.pdf';
+import pdf2 from '/Users/lasyarajan/info/src/lrajandesignportfolio.pdf';
 
 class App extends React.Component {
   render (){
@@ -11,10 +13,12 @@ class App extends React.Component {
         <div className="inner">
           <nav>
             <ul>
-              <li><a href="#intro">Welcome</a></li>
-              <li><a href="#one">Who we are</a></li>
-              <li><a href="#two">What we do</a></li>
-              <li><a href="#three">Get in touch</a></li>
+              <li><a href="#intro">Hello World</a></li>
+              <li><a href="#one">Programming Projects</a></li>
+              <li><a href="#two">Music</a></li>
+              <li><a href= "#three">Diversity, Equity, and Inclusion Work</a></li>
+              <li><a href ="#four">My Favorite Things</a></li>
+              <li><a href="#five">Let's connect</a></li>
             </ul>
           </nav>
         </div>
@@ -34,8 +38,11 @@ class App extends React.Component {
               <p></p>
               <li className = "text5"> I'm passionate about empathetic design and the intersection of art and technology. </li>
               <p></p>
-              </ul>
-              <div className = "text6"> Learn more about me and see what I'm up to! </div>
+              <ul className = "actions">
+                <li><a href= {pdf} className = "button">Resume</a></li>
+                <li><a href= {pdf2} className = "button">Design Portfolio</a></li>
+                </ul>
+     </ul>
               <img src = {Picture1} className = "photo" alt = "A photo of me hiking in Cherry Springs Dark Sky Park, PA." />
               <ul className="actions">
               
@@ -51,32 +58,32 @@ class App extends React.Component {
               <a href="#" className="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
               <div className="content">
                 <div className="inner">
-                  <h2>Sed ipsum dolor</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                  <h2>Thinking...coding...even more thinking</h2>
+                  <p>I use side programming projects to explore new tools, prototype ideas, and learn new things. Right now, I'm getting into audio development.</p>
                   <ul className="actions">
                     <li><a href="generic.html" className="button">Learn more</a></li>
                   </ul>
                 </div>
               </div>
-            </section>
-            <section>
+            </section >
+            <section id = "two">
               <a href="#" className="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
               <div className="content">
                 <div className="inner">
-                  <h2>Feugiat consequat</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                  <h2>Making tunes</h2>
+                  <p>Learn about on my ongoing journey with guitar, bass, and Ableton Live.</p>
                   <ul className="actions">
                     <li><a href="generic.html" className="button">Learn more</a></li>
                   </ul>
                 </div>
               </div>
             </section>
-            <section>
+            <section id = "three">
               <a href="#" className="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
               <div className="content">
                 <div className="inner">
-                  <h2>Ultricies aliquam</h2>
-                  <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+                  <h2>Pushing for justice</h2>
+                  <p>I push every organization I'm involved in to be aware of and design for marginalized perspectives, whether that be an improv team or a tech startup.</p>
                   <ul className="actions">
                     <li><a href="generic.html" className="button">Learn more</a></li>
                   </ul>
@@ -85,10 +92,10 @@ class App extends React.Component {
             </section>
           </section>
 
-          <section id="two" className="wrapper style3 fade-up">
+          <section id = "four" className="wrapper style3 fade-up">
             <div className="inner">
-              <h2>What we do</h2>
-              <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+              <h2>Things I'm Currently Digging</h2>
+              <p>These are a few of my favorite things (aka what I'm currently listening to, reading, watching, and using)</p>
               <div className="features">
                 <section>
                   <span className="icon solid major fa-code"></span>
@@ -128,71 +135,26 @@ class App extends React.Component {
           </section>
 
      
-          <section id="three" className="wrapper style1 fade-up">
+          <section id="five" className="wrapper style1 fade-up">
             <div className="inner">
-              <h2>Get in touch</h2>
-              <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-              <div className="split style1">
-                <section>
-                  <form method="post" action="#">
-                    <div className="fields">
-                      <div className="field half">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                      </div>
-                      <div className="field half">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" />
-                      </div>
-                      <div className="field">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="5"></textarea>
-                      </div>
-                    </div>
-                    <ul className="actions">
-                      <li><a href="" className="button submit">Send Message</a></li>
-                    </ul>
-                  </form>
-                </section>
-                <section>
-                  <ul className="contact">
-                    <li>
-                      <h3>Address</h3>
-                      <span>12345 Somewhere Road #654<br />
-                      Nashville, TN 00000-0000<br />
-                      USA</span>
-                    </li>
-                    <li>
+              <h2>Let's connect</h2>
+              <p>I'm always looking for collaborators and fresh perspectives on life.</p>
                       <h3>Email</h3>
-                      <a href="#">user@untitled.tld</a>
-                    </li>
-                    <li>
-                      <h3>Phone</h3>
-                      <span>(000) 000-0000</span>
-                    </li>
-                    <li>
-                      <h3>Social</h3>
+                      <a href="#">lar139@georgetown.edu</a>
+                      <p>
+                      </p>
+                      <h3>Links</h3>
                       <ul className="icons">
-                        <li><a href="#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-                        <li><a href="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-                        <li><a href="#" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
-                        <li><a href="#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-                        <li><a href="#" className="icon brands fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
-                      </ul>
-                    </li>
+                        <li><a href="https://github.com/lasya-rajan" className="icon brands fa-github"><span className="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/lasya-rajan-006531145/" className="icon brands fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
                   </ul>
-                </section>
-              </div>
             </div>
           </section>
-
       </div>
-
-
       <footer id="footer" className="wrapper style1-alt">
         <div className="inner">
           <ul className="menu">
-            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Lasya Rajan, 2021. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
           </ul>
         </div>
       </footer>
