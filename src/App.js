@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import Picture1 from '/Users/lasyarajan/info/src/lasya.jpg'; 
+import Image1 from '/Users/lasyarajan/info/src/image1.jpg';
+import Image2 from '/Users/lasyarajan/info/src/image2.jpg';
+import Image3 from '/Users/lasyarajan/info/src/image3.jpeg';
 import pdf from '/Users/lasyarajan/info/src/lasyarajanresume.pdf';
 import pdf2 from '/Users/lasyarajan/info/src/lrajandesignportfolio.pdf';
 
@@ -38,6 +41,7 @@ class App extends React.Component {
               <p></p>
               <li className = "text5"> I'm passionate about empathetic design and the intersection of art and technology. </li>
               <p></p>
+              <p></p>
               <ul className = "actions">
                 <li><a href= {pdf} className = "button">Resume</a></li>
                 <li><a href= {pdf2} className = "button">Design Portfolio</a></li>
@@ -55,31 +59,29 @@ class App extends React.Component {
       
           <section id="one" className="wrapper style2 spotlights">
             <section>
-              <a href="#" className="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+              <a className="photo2"><img src= {Image1}/></a>
               <div className="content">
-                <div className="inner">
-                  <h2>Thinking...coding...even more thinking</h2>
+                <div className ="inner">
+                  <h2 className = "text7">Thinking...coding...even more thinking</h2>
                   <p>I use side programming projects to explore new tools, prototype ideas, and learn new things. Right now, I'm getting into audio development.</p>
                   <ul className="actions">
                     <li><a href="generic.html" className="button">Learn more</a></li>
                   </ul>
                 </div>
-              </div>
+                </div>
             </section >
             <section id = "two">
-              <a href="#" className="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+              <a href="#" className="photo2"><img src= {Image2} alt="" data-position="top center" /></a>
               <div className="content">
-                <div className="inner">
                   <h2>Making tunes</h2>
                   <p>Learn about on my ongoing journey with guitar, bass, and Ableton Live.</p>
                   <ul className="actions">
                     <li><a href="generic.html" className="button">Learn more</a></li>
                   </ul>
-                </div>
               </div>
             </section>
             <section id = "three">
-              <a href="#" className="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+              <a href="#" className="photo2"><img src={Image3} alt="" data-position="25% 25%" /></a>
               <div className="content">
                 <div className="inner">
                   <h2>Pushing for justice</h2>

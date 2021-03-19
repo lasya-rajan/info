@@ -3924,6 +3924,14 @@ input, select, textarea {
 		bottom: -150px;
 	}
 
+
+.photo2{
+		top:100px;
+		max-width: 100%;
+		max-height: auto;
+
+}
+
 .text1 {
 	float:right;
 	position: fixed;
@@ -3970,4 +3978,11 @@ input, select, textarea {
 	top: 350px;
 	right:20px;
 	list-style-type: "\2B07";
+}
+
+.text7{
+
+	float:center;
+	
+
 }
