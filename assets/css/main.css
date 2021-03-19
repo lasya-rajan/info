@@ -3986,3 +3986,24 @@ input, select, textarea {
 	
 
 }
+
+
+.text8{
+
+	list-style-type: none;
+	float:center;
+	position: fixed;
+	right:520px;
+	bottom: -30px;
+	text-align: center;
+	
+
+}
+.text9
+{
+	position: fixed;
+	bottom:10px;
+	left:520px;
+}
+
+
